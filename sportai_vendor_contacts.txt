@@ -1,0 +1,516 @@
+# Elite Tech Vendor Contact Directory
+
+## 🎯 Primary Equipment Vendors
+
+### HitTrax (Baseball/Softball Analytics)
+**Company:** InMotion Systems, LLC  
+**Product:** HitTrax Baseball/Softball Analytics System  
+**Website:** https://www.hittrax.com  
+**Phone:** (413) 341-7774  
+**Email:** info@hittrax.com  
+**Sales Contact:** Request quote through website or call main line
+
+**What to Order:**
+- HitTrax Pro System (3 units needed)
+- Installation & calibration service
+- Annual software subscription
+- Training/support package
+
+**Pricing (Estimated):**
+- System: $22,000 - $27,000 per unit
+- Installation: $2,000 - $3,000 per unit
+- Annual subscription: $1,200/year per unit
+- **Total for 3 units: ~$75,000 + $3,600/year**
+
+**Lead Time:** 8-12 weeks from order
+
+**Key Questions to Ask:**
+- Multi-unit discount available?
+- What's included in installation?
+- Training package for staff?
+- Warranty terms?
+- Integration with existing software?
+
+---
+
+### Rapsodo (Pitching & Hitting Analytics)
+**Company:** Rapsodo Inc.  
+**Product:** Rapsodo Pitching 2.0 & Hitting 2.0  
+**Website:** https://rapsodo.com  
+**Phone:** (855) 727-7636  
+**Email:** sales@rapsodo.com  
+**Sales Contact:** Fill out "Contact Sales" form on website
+
+**What to Order:**
+- Rapsodo Pitching 2.0 (3 units)
+- iPad stands/mounts (3)
+- Annual subscription (3 licenses)
+
+**Pricing (Estimated):**
+- Pitching 2.0: $3,500 per unit
+- Subscription: $600/year per unit
+- Mounting hardware: $200 per unit
+- **Total for 3 units: ~$11,100 + $1,800/year**
+
+**Lead Time:** 4-6 weeks from order
+
+**Key Questions:**
+- Bundle pricing for 3+ units?
+- iPad compatibility (we provide or included)?
+- Cloud storage limits?
+- Can integrate with HitTrax data?
+
+---
+
+### Noah Basketball (Shot Tracking & Analysis)
+**Company:** Noah Basketball  
+**Product:** Noah Instant Shooting System  
+**Website:** https://noahbasketball.com  
+**Phone:** (833) 662-4462  
+**Email:** sales@noahbasketball.com  
+**Sales Contact:** Request demo/quote on website
+
+**What to Order:**
+- Noah Instant System (4 units - one per court)
+- Mounting hardware (ceiling mount)
+- Annual software licenses (4)
+- Installation service
+
+**Pricing (Estimated):**
+- Noah Instant: $7,000 - $9,000 per unit
+- Installation: $500 - $1,000 per unit
+- Annual subscription: $800/year per unit
+- **Total for 4 units: ~$32,000 - $40,000 + $3,200/year**
+
+**Lead Time:** 6-8 weeks from order
+
+**Key Questions:**
+- Multi-court discount?
+- Integration with existing scoreboard/displays?
+- Mobile app included?
+- Installation requirements (electrical, network)?
+
+---
+
+### TrackMan (Golf Analytics)
+**Company:** TrackMan A/S  
+**Product:** TrackMan 4 Golf Simulator Package  
+**Website:** https://trackmangolf.com  
+**Phone:** (407) 967-4488  
+**Email:** golf@trackman.com  
+**Sales Contact:** Find your regional rep on website
+
+**What to Order:**
+- Likely already included in golf simulator package
+- If upgrading: TrackMan 4 units (3)
+- Performance Studio software upgrade
+- Annual license renewals
+
+**Pricing (Estimated):**
+- TrackMan 4: $20,000 - $25,000 per unit (if not included)
+- Performance Studio: $2,000/year per unit
+- **Incremental cost (software only): ~$6,000/year**
+
+**Lead Time:** Already installed or 8-10 weeks
+
+**Key Questions:**
+- Is TrackMan included in existing simulators?
+- Can we upgrade to Performance Studio?
+- API access for custom integration?
+- Multi-year subscription discount?
+
+---
+
+### Catapult/Kinexon (GPS Tracking - Full Field)
+**Company:** Catapult Sports  
+**Product:** Catapult Vector GPS System  
+**Website:** https://www.catapultsports.com  
+**Phone:** (617) 600-3492  
+**Email:** info@catapultsports.com
+
+**OR**
+
+**Company:** Kinexon  
+**Product:** Kinexon PERFORM GPS  
+**Website:** https://kinexon-sports.com  
+**Email:** sports@kinexon.com
+
+**What to Order:**
+- GPS tracking units (30 units for team coverage)
+- Base station/receiver system
+- Charging dock
+- Annual software platform license
+
+**Pricing (Estimated):**
+- **Catapult:** $15,000 - $25,000 for 30-unit system + $5,000/year software
+- **Kinexon:** $12,000 - $20,000 for system + $4,000/year software
+- **Budget: ~$20,000 + $5,000/year**
+
+**Lead Time:** 8-12 weeks
+
+**Key Questions:**
+- Indoor vs outdoor tracking capability?
+- Real-time vs post-session analysis?
+- Integration with video?
+- Multi-sport capability?
+
+---
+
+### Veo/Hudl (Video Analysis & AI)
+**Company:** Veo Technologies  
+**Product:** Veo Cam 3  
+**Website:** https://www.veo.co  
+**Email:** sales@veo.co  
+**Phone:** Contact through website
+
+**OR**
+
+**Company:** Hudl  
+**Product:** Hudl Focus + Hudl Sportscode  
+**Website:** https://www.hudl.com  
+**Phone:** (402) 817-0060  
+**Email:** sales@hudl.com
+
+**What to Order:**
+- **Veo:** 8 AI cameras (2 per basketball court, 2 for turf)
+- **Hudl:** Focus cameras (8) + Sportscode licenses
+
+**Pricing (Estimated):**
+- **Veo Cam 3:** $1,200 per camera + $600/year subscription = $15,000 setup + $4,800/year
+- **Hudl Focus:** $2,000 per camera + $1,000/year = $16,000 + $8,000/year
+- **Recommendation: Veo for cost-effectiveness**
+
+**Lead Time:** 4-6 weeks
+
+**Key Questions:**
+- Multi-camera sync capability?
+- Cloud storage limits?
+- Download/export options?
+- Integration with performance platforms?
+
+---
+
+## 🔧 Installation & Integration Vendors
+
+### Sports Facilities Technology Integration
+**Company:** STRV (Custom Sports Tech Solutions)  
+**Website:** https://www.strv.com/services  
+**Contact:** Fill out contact form, select "Sports Tech"  
+**Services:**
+- Custom software integration
+- API development for unified dashboard
+- Mobile app development
+- Cloud infrastructure setup
+
+**Pricing:** Custom quote (expect $25,000 - $50,000 for full integration)
+
+---
+
+### Audio-Visual & Network Infrastructure
+**Company:** Local AV/IT integrator (recommend getting 3 quotes)
+
+**Recommended National Providers:**
+- **AVI-SPL** - https://www.avispl.com - (866) 708-5034
+- **Diversified** - https://www.diversifiedus.com - (800) 323-9043
+- **Ford Audio-Video** - https://fordav.com - (800) 841-3673
+
+**What to Order:**
+- Network switches/cabling upgrades
+- Display screens for leaderboards (4-6 units)
+- Sound system integration
+- Electrical upgrades as needed
+
+**Pricing (Estimated):** $30,000 - $50,000
+
+---
+
+### Cloud Storage & Infrastructure
+**Provider Options:**
+
+**AWS (Amazon Web Services)**
+- Website: https://aws.amazon.com
+- Contact: Create account, contact sales
+- Estimated: $200-400/month for 10TB + processing
+
+**Google Cloud**
+- Website: https://cloud.google.com
+- Contact: cloud.google.com/contact
+- Estimated: $200-400/month for 10TB + processing
+
+**Microsoft Azure**
+- Website: https://azure.microsoft.com
+- Contact: azure.microsoft.com/contact
+- Estimated: $200-400/month for 10TB + processing
+
+**Recommendation:** AWS for sports analytics compatibility
+
+---
+
+## 📦 Equipment Order Priority List
+
+### Phase 1 - Core Systems (Order Immediately)
+**Priority 1:**
+1. ✅ HitTrax (3 units) - 12 week lead time
+2. ✅ Rapsodo (3 units) - 6 week lead time
+3. ✅ Noah Basketball (4 units) - 8 week lead time
+
+**Order By:** This week  
+**Installation Target:** 10-12 weeks from now
+
+---
+
+### Phase 2 - Video & Tracking (Order Week 2-3)
+**Priority 2:**
+4. ✅ Veo Cameras (8 units) - 6 week lead time
+5. ✅ GPS Tracking System (1 system) - 12 week lead time
+6. ✅ Cloud Infrastructure (setup immediately)
+
+**Order By:** Week 2-3  
+**Installation Target:** 8-10 weeks from order
+
+---
+
+### Phase 3 - Integration & Infrastructure (Order Week 4)
+**Priority 3:**
+7. ✅ Network/AV upgrades (get quotes now)
+8. ✅ Display screens for leaderboards
+9. ✅ STRV integration (if doing custom work)
+
+**Order By:** Week 4  
+**Installation Target:** Coordinate with Phase 1 completion
+
+---
+
+## 💰 Total Investment Summary
+
+| Category | Vendor | Setup Cost | Annual Cost |
+|----------|--------|------------|-------------|
+| **Baseball/Softball** | HitTrax (3) | $75,000 | $3,600 |
+| **Pitching** | Rapsodo (3) | $11,100 | $1,800 |
+| **Basketball** | Noah (4) | $36,000 | $3,200 |
+| **Golf** | TrackMan software | $0 | $6,000 |
+| **GPS Tracking** | Catapult/Kinexon | $20,000 | $5,000 |
+| **Video Analysis** | Veo (8 cameras) | $15,000 | $4,800 |
+| **Cloud Storage** | AWS | $0 | $4,800 |
+| **AV/Network** | Local integrator | $40,000 | $0 |
+| **Custom Integration** | STRV (optional) | $35,000 | $2,000 |
+| **Contingency (10%)** | - | $23,210 | - |
+| **TOTAL** | | **$255,310** | **$31,200/year** |
+
+**Monthly Recurring:** $2,600/month  
+**First Year Total:** $286,510
+
+---
+
+## 📋 Request for Quote (RFQ) Templates
+
+### Template 1: HitTrax RFQ
+
+```
+To: info@hittrax.com
+Subject: Quote Request - HitTrax Systems for Skill Shot Sports Complex
+
+Dear HitTrax Sales Team,
+
+We are requesting a quote for the following:
+
+EQUIPMENT NEEDED:
+- Quantity: 3 HitTrax Pro Systems
+- Installation: Full professional installation required
+- Training: Staff training for 4-6 employees
+- Support: Annual support and software updates
+
+FACILITY DETAILS:
+- Facility Name: Skill Shot Sports Complex
+- Location: [Your City, State]
+- Facility Type: Indoor sports complex with turf boxes
+- Installation Timeline: Target 10-12 weeks from order
+
+REQUIREMENTS:
+1. Multi-unit discount pricing
+2. Detailed installation requirements (electrical, network, space)
+3. Staff training program details
+4. Warranty terms and annual support costs
+5. Financing options if available
+6. References from similar facilities
+
+DECISION TIMELINE:
+- Quote needed by: [Date - 1 week from now]
+- Decision date: [Date - 2 weeks from now]
+- Target installation: [Date - 12 weeks from now]
+
+Please provide:
+✓ Detailed itemized quote
+✓ Installation timeline and requirements
+✓ Payment terms
+✓ Warranty/support options
+✓ Customer references
+
+Contact Information:
+[Your Name]
+[Your Title]
+[Phone]
+[Email]
+
+Thank you,
+[Signature]
+```
+
+---
+
+### Template 2: Multi-Vendor Comparison RFQ
+
+```
+To: [Vendor Email]
+Subject: RFQ - Sports Performance Technology for Indoor Facility
+
+Dear [Vendor] Sales Team,
+
+Skill Shot Sports Complex is upgrading our facility with elite training technology. We are requesting competitive quotes from qualified vendors.
+
+PROJECT OVERVIEW:
+- Facility Size: 50,000+ sq ft indoor sports complex
+- Sports: Baseball, Basketball, Soccer, Golf, Multi-sport
+- Budget: $200,000 - $300,000
+- Timeline: 12 weeks from order to full operational
+
+EQUIPMENT CATEGORIES:
+1. Hitting/Pitching Analytics (3 systems)
+2. Basketball Shot Tracking (4 courts)
+3. Video Analysis (8+ cameras)
+4. GPS/Movement Tracking (full field)
+5. Cloud Storage & Integration
+
+YOUR CATEGORY: [Specify which category this vendor is for]
+
+REQUESTED INFORMATION:
+1. Detailed product specifications
+2. Itemized pricing (equipment, installation, annual fees)
+3. Installation timeline and requirements
+4. Training and support included
+5. Integration capabilities with other systems
+6. Warranty and maintenance terms
+7. Financing options
+8. Customer references (similar facilities)
+9. Demo or trial availability
+
+EVALUATION CRITERIA:
+- Price (30%)
+- Product features and quality (30%)
+- Installation/support (20%)
+- Integration capabilities (10%)
+- References and track record (10%)
+
+SUBMISSION DEADLINE: [Date - 1 week]
+VENDOR PRESENTATIONS (if selected): [Date - 2 weeks]
+FINAL DECISION: [Date - 3 weeks]
+
+Please submit quotes to: [Your Email]
+
+Questions? Contact:
+[Your Name] - [Phone] - [Email]
+
+Thank you for your proposal.
+```
+
+---
+
+## 📞 Next Steps Action Plan
+
+### This Week (Week 1)
+- [ ] **Monday:** Send RFQs to HitTrax, Rapsodo, Noah
+- [ ] **Tuesday:** Send RFQs to Veo/Hudl, Catapult/Kinexon
+- [ ] **Wednesday:** Contact 3 local AV integrators for quotes
+- [ ] **Thursday:** Set up meetings with AWS/Google Cloud sales
+- [ ] **Friday:** Review initial responses, schedule vendor calls
+
+### Week 2
+- [ ] **Monday-Wednesday:** Vendor calls and product demos
+- [ ] **Thursday:** Create comparison spreadsheet
+- [ ] **Friday:** Present recommendations to leadership
+
+### Week 3
+- [ ] **Monday:** Final vendor selection
+- [ ] **Tuesday:** Negotiate final pricing
+- [ ] **Wednesday:** Budget approval
+- [ ] **Thursday:** Place orders for long-lead items (HitTrax)
+- [ ] **Friday:** Execute contracts
+
+### Week 4
+- [ ] Place remaining equipment orders
+- [ ] Schedule installation timeline
+- [ ] Begin staff training planning
+- [ ] Launch marketing for new tech features
+
+---
+
+## 🎯 Vendor Negotiation Tips
+
+### Leverage Points:
+1. **Multi-unit purchase** - Ask for 10-15% discount for buying 3-4 units
+2. **Case study opportunity** - Offer to be a showcase facility for marketing
+3. **Social media promotion** - Tag them in posts, testimonials
+4. **Bundle pricing** - Buy annual contracts upfront for discount
+5. **Referral agreement** - Commit to referring other facilities
+
+### Questions to Always Ask:
+- "What's your best price for a multi-unit order?"
+- "What's included vs additional cost?"
+- "What happens if equipment fails during installation?"
+- "Can we get a trial or demo period?"
+- "What's the total cost of ownership over 3 years?"
+- "Do you offer financing or payment plans?"
+
+### Red Flags to Watch:
+- ⚠️ Unwilling to provide references
+- ⚠️ Vague on installation requirements
+- ⚠️ Hidden annual fees not disclosed upfront
+- ⚠️ No warranty or very short warranty period
+- ⚠️ Pushy on immediate decision without demo
+
+---
+
+## 📧 Email Template for Initial Contact
+
+```
+Subject: Introduction - Quote Request for Sports Performance Technology
+
+Hello [Vendor Name],
+
+My name is [Your Name] and I'm the [Your Title] at Skill Shot Sports Complex, a premier indoor sports facility in [Your City, State].
+
+We're embarking on an exciting upgrade to add elite training technology across our facility and would like to explore partnering with [Vendor Company].
+
+Quick Overview:
+• Facility: 50,000+ sq ft indoor complex
+• Sports: Baseball, Basketball, Soccer, Golf
+• Budget: $200K-$300K
+• Timeline: Starting immediately, installation in 10-12 weeks
+
+I'd love to schedule a brief call to discuss:
+1. Your product capabilities for our use case
+2. Preliminary pricing and timeline
+3. References from similar facilities
+4. Next steps for detailed quote
+
+Are you available for a 30-minute call this week or next?
+
+Best times for me:
+• [Day/Time option 1]
+• [Day/Time option 2]
+• [Day/Time option 3]
+
+Looking forward to connecting!
+
+Best regards,
+[Your Name]
+[Your Title]
+Skill Shot Sports Complex
+[Phone]
+[Email]
+[Website]
+```
+
+---
+
+**Ready to start? Begin with HitTrax, Rapsodo, and Noah - they have the longest lead times!**

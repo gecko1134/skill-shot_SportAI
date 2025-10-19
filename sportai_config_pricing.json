@@ -1,0 +1,102 @@
+{
+  "base_rates": {
+    "turf_full": {
+      "prime": 275,
+      "standard": 200,
+      "off_peak": 150,
+      "tech_enabled_premium": 50
+    },
+    "turf_half": {
+      "prime": 150,
+      "standard": 110,
+      "off_peak": 85,
+      "tech_enabled_premium": 25
+    },
+    "turf_box": {
+      "prime": 85,
+      "standard": 65,
+      "off_peak": 50,
+      "tech_enabled_premium": 20
+    },
+    "court": {
+      "prime": 45,
+      "standard": 35,
+      "off_peak": 25,
+      "tech_enabled_premium": 15
+    },
+    "golf_bay": {
+      "prime": 55,
+      "standard": 45,
+      "off_peak": 35,
+      "tech_enabled_premium": 25
+    },
+    "suite": {
+      "prime": 200,
+      "standard": 150,
+      "off_peak": 100
+    },
+    "vr_arena": {
+      "prime": 200,
+      "standard": 150,
+      "off_peak": 100,
+      "tech_enabled_premium": 25
+    }
+  },
+  "demand_multipliers": {
+    "high": 1.25,
+    "medium": 1.0,
+    "low": 0.85,
+    "very_low": 0.75
+  },
+  "lead_time_discounts": {
+    "90_days": 0.85,
+    "60_days": 0.90,
+    "30_days": 0.95,
+    "14_days": 1.0,
+    "7_days": 1.05
+  },
+  "segments": {
+    "youth": 0.80,
+    "non_profit": 0.85,
+    "school": 0.82,
+    "regular": 1.0,
+    "corporate": 1.15,
+    "tournament": 1.20
+  },
+  "daypart_definitions": {
+    "morning": {
+      "start": "06:00",
+      "end": "12:00",
+      "category": "off_peak"
+    },
+    "afternoon": {
+      "start": "12:00",
+      "end": "17:00",
+      "category": "standard"
+    },
+    "prime": {
+      "start": "17:00",
+      "end": "22:00",
+      "category": "prime"
+    },
+    "late": {
+      "start": "22:00",
+      "end": "24:00",
+      "category": "off_peak"
+    }
+  },
+  "seasonal_adjustments": {
+    "high_season": {
+      "months": [9, 10, 11, 1, 2, 3],
+      "multiplier": 1.1
+    },
+    "shoulder_season": {
+      "months": [4, 5, 8],
+      "multiplier": 1.0
+    },
+    "low_season": {
+      "months": [6, 7],
+      "multiplier": 0.9
+    }
+  }
+}

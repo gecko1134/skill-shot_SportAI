@@ -1,0 +1,659 @@
+# SportAI Production Deployment Guide
+
+Complete guide for deploying SportAI to production environments.
+
+## Table of Contents
+1. [Pre-Deployment Checklist](#pre-deployment-checklist)
+2. [Security Hardening](#security-hardening)
+3. [Database Setup](#database-setup)
+4. [Deployment Options](#deployment-options)
+5. [Post-Deployment](#post-deployment)
+6. [Monitoring & Maintenance](#monitoring--maintenance)
+
+---
+
+## Pre-Deployment Checklist
+
+### Required Actions
+- [ ] Change all default passwords in `config/users.json`
+- [ ] Implement proper password hashing (bcrypt/argon2)
+- [ ] Set up environment variables for all secrets
+- [ ] Configure production database (PostgreSQL recommended)
+- [ ] Enable HTTPS/SSL
+- [ ] Set up backup strategy
+- [ ] Configure email service (SendGrid)
+- [ ] Review and update pricing rules
+- [ ] Test all modules with production data
+- [ ] Configure monitoring and alerting
+
+### Optional Enhancements
+- [ ] Integrate with SportsKey API
+- [ ] Set up Google Analytics
+- [ ] Configure Stripe for payments
+- [ ] Enable BigQuery for analytics
+- [ ] Set up CDN for static assets
+
+---
+
+## Security Hardening
+
+### 1. Password Security
+
+**Replace plain text passwords with hashed versions:**
+
+```python
+# utils/auth.py
+import bcrypt
+
+def hash_password(password: str) -> str:
+    """Hash a password for storing"""
+    salt = bcrypt.gensalt()
+    return bcrypt.hashpw(password.encode('utf-8'), salt).decode('utf-8')
+
+def check_password(password: str, hashed: str) -> bool:
+    """Verify a password against a hash"""
+    return bcrypt.checkpw(password.encode('utf-8'), hashed.encode('utf-8'))
+```
+
+**Update users.json structure:**
+```json
+{
+  "admin": {
+    "password_hash": "$2b$12$encrypted_password_here",
+    "role": "admin",
+    "name": "System Administrator",
+    "email": "admin@skillshot.com"
+  }
+}
+```
+
+### 2. Environment Variables
+
+**Create production `.env` file:**
+```bash
+# Database
+DATABASE_URL=postgresql://user:pass@host:5432/sportai
+
+# Email
+SENDGRID_API_KEY=SG.xxx
+SENDGRID_FROM_EMAIL=noreply@skillshot.com
+
+# Security
+SECRET_KEY=your-secret-key-here
+SESSION_LIFETIME_HOURS=24
+
+# Feature Flags
+ENABLE_SIGNUP=false
+ENABLE_PASSWORD_RESET=true
+
+# Monitoring
+SENTRY_DSN=https://xxx@sentry.io/xxx
+LOG_LEVEL=INFO
+```
+
+### 3. Session Management
+
+**Update main_app.py for secure sessions:**
+```python
+import secrets
+import streamlit as st
+from datetime import datetime, timedelta
+
+# Generate secure session ID
+if 'session_id' not in st.session_state:
+    st.session_state.session_id = secrets.token_urlsafe(32)
+
+# Session timeout
+if 'last_activity' in st.session_state:
+    if datetime.now() - st.session_state.last_activity > timedelta(hours=24):
+        st.session_state.clear()
+        st.rerun()
+
+st.session_state.last_activity = datetime.now()
+```
+
+### 4. Input Validation
+
+Add input sanitization for all user inputs to prevent SQL injection and XSS attacks.
+
+---
+
+## Database Setup
+
+### PostgreSQL (Recommended)
+
+**1. Install PostgreSQL:**
+```bash
+# Ubuntu/Debian
+sudo apt-get install postgresql postgresql-contrib
+
+# macOS
+brew install postgresql
+```
+
+**2. Create Database:**
+```sql
+CREATE DATABASE sportai;
+CREATE USER sportai_user WITH PASSWORD 'secure_password';
+GRANT ALL PRIVILEGES ON DATABASE sportai TO sportai_user;
+```
+
+**3. Update Connection String:**
+```python
+# utils/database.py
+import os
+from sqlalchemy import create_engine
+
+DATABASE_URL = os.getenv('DATABASE_URL', 'sqlite:///data/sportai.db')
+engine = create_engine(DATABASE_URL)
+```
+
+**4. Run Migrations:**
+```bash
+python -c "from utils.database import db; db.init_database()"
+```
+
+### Backup Strategy
+
+**Automated Daily Backups:**
+```bash
+#!/bin/bash
+# backup.sh
+
+DATE=$(date +%Y%m%d_%H%M%S)
+BACKUP_DIR="/backups/sportai"
+
+# Database backup
+pg_dump sportai > "$BACKUP_DIR/db_backup_$DATE.sql"
+
+# Config backup
+tar -czf "$BACKUP_DIR/config_backup_$DATE.tar.gz" config/
+
+# Retain last 30 days
+find $BACKUP_DIR -name "*.sql" -mtime +30 -delete
+find $BACKUP_DIR -name "*.tar.gz" -mtime +30 -delete
+```
+
+**Add to crontab:**
+```bash
+0 2 * * * /path/to/backup.sh
+```
+
+---
+
+## Deployment Options
+
+### Option 1: Streamlit Cloud (Easiest)
+
+**Pros:** Free tier available, automatic HTTPS, easy setup
+**Cons:** Limited resources on free tier
+
+**Steps:**
+1. Push code to GitHub
+2. Go to [share.streamlit.io](https://share.streamlit.io)
+3. Connect repository
+4. Add secrets in Settings → Secrets
+5. Deploy!
+
+**Secrets format (TOML):**
+```toml
+[database]
+url = "postgresql://..."
+
+[sendgrid]
+api_key = "SG.xxx"
+from_email = "noreply@skillshot.com"
+```
+
+### Option 2: Docker Deployment
+
+**Dockerfile:**
+```dockerfile
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# Install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy application
+COPY . .
+
+# Create non-root user
+RUN useradd -m -u 1000 sportai && chown -R sportai:sportai /app
+USER sportai
+
+# Expose port
+EXPOSE 8501
+
+# Health check
+HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health || exit 1
+
+# Run application
+CMD ["streamlit", "run", "main_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+```
+
+**docker-compose.yml:**
+```yaml
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - DATABASE_URL=postgresql://sportai:password@db:5432/sportai
+    depends_on:
+      - db
+    restart: always
+    volumes:
+      - ./config:/app/config
+      - ./logs:/app/logs
+
+  db:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=sportai
+      - POSTGRES_USER=sportai
+      - POSTGRES_PASSWORD=secure_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: always
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./ssl:/etc/nginx/ssl
+    depends_on:
+      - app
+    restart: always
+
+volumes:
+  postgres_data:
+```
+
+**Deploy:**
+```bash
+docker-compose up -d
+```
+
+### Option 3: Cloud Platforms
+
+#### AWS (Elastic Beanstalk)
+
+```bash
+# Install EB CLI
+pip install awsebcli
+
+# Initialize
+eb init -p python-3.9 sportai
+
+# Create environment
+eb create sportai-prod
+
+# Deploy
+eb deploy
+```
+
+#### Google Cloud (App Engine)
+
+**app.yaml:**
+```yaml
+runtime: python39
+entrypoint: streamlit run main_app.py --server.port=$PORT
+
+env_variables:
+  DATABASE_URL: "postgresql://..."
+
+automatic_scaling:
+  min_instances: 1
+  max_instances: 10
+```
+
+**Deploy:**
+```bash
+gcloud app deploy
+```
+
+#### Heroku
+
+```bash
+# Login
+heroku login
+
+# Create app
+heroku create sportai-skillshot
+
+# Add PostgreSQL
+heroku addons:create heroku-postgresql:hobby-dev
+
+# Deploy
+git push heroku main
+```
+
+### Option 4: Self-Hosted (VPS)
+
+**For DigitalOcean, Linode, AWS EC2, etc.**
+
+**1. Server Setup:**
+```bash
+# Update system
+sudo apt-get update && sudo apt-get upgrade -y
+
+# Install Python and dependencies
+sudo apt-get install -y python3.9 python3-pip postgresql nginx
+
+# Install application
+git clone https://github.com/yourorg/sportai.git
+cd sportai
+pip3 install -r requirements.txt
+```
+
+**2. systemd Service:**
+```ini
+# /etc/systemd/system/sportai.service
+[Unit]
+Description=SportAI Application
+After=network.target
+
+[Service]
+Type=simple
+User=sportai
+WorkingDirectory=/home/sportai/sportai
+ExecStart=/usr/local/bin/streamlit run main_app.py --server.port=8501
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+**3. Enable and start:**
+```bash
+sudo systemctl enable sportai
+sudo systemctl start sportai
+```
+
+**4. Nginx Reverse Proxy:**
+```nginx
+# /etc/nginx/sites-available/sportai
+server {
+    listen 80;
+    server_name sportai.skillshot.com;
+    
+    location / {
+        proxy_pass http://localhost:8501;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
+
+**5. SSL with Let's Encrypt:**
+```bash
+sudo apt-get install certbot python3-certbot-nginx
+sudo certbot --nginx -d sportai.skillshot.com
+```
+
+---
+
+## Post-Deployment
+
+### 1. Smoke Tests
+
+**Test all critical paths:**
+```bash
+# Test login
+curl -X POST https://sportai.skillshot.com/login \
+  -d '{"username": "admin", "password": "new_password"}'
+
+# Test API endpoints (if any)
+curl https://sportai.skillshot.com/api/health
+
+# Test database connection
+python -c "from utils.database import db; print(db.get_connection())"
+```
+
+### 2. Performance Optimization
+
+**Enable caching:**
+```python
+import streamlit as st
+
+@st.cache_data(ttl=3600)
+def get_expensive_data():
+    # Expensive computation
+    return data
+
+@st.cache_resource
+def get_database_connection():
+    # Database connection
+    return connection
+```
+
+**Configure resource limits:**
+```toml
+# .streamlit/config.toml
+[server]
+maxUploadSize = 200
+maxMessageSize = 200
+
+[runner]
+fastReruns = true
+```
+
+### 3. Monitoring Setup
+
+**Application Monitoring:**
+```python
+# Add to main_app.py
+import sentry_sdk
+
+sentry_sdk.init(
+    dsn=os.getenv('SENTRY_DSN'),
+    traces_sample_rate=1.0
+)
+```
+
+**Health Check Endpoint:**
+```python
+# health.py
+def check_health():
+    """Health check for monitoring"""
+    checks = {
+        'database': check_database(),
+        'disk_space': check_disk_space(),
+        'memory': check_memory()
+    }
+    return all(checks.values()), checks
+```
+
+---
+
+## Monitoring & Maintenance
+
+### Application Monitoring
+
+**Metrics to Track:**
+- Uptime and availability
+- Response times
+- Error rates
+- Database query performance
+- Memory and CPU usage
+- Active users
+- Failed login attempts
+
+**Tools:**
+- **Sentry** - Error tracking
+- **DataDog** - Infrastructure monitoring
+- **Google Analytics** - User analytics
+- **Pingdom** - Uptime monitoring
+
+### Log Management
+
+**Configure logging:**
+```python
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('logs/sportai.log'),
+        logging.StreamHandler()
+    ]
+)
+```
+
+**Log rotation:**
+```bash
+# /etc/logrotate.d/sportai
+/home/sportai/sportai/logs/*.log {
+    daily
+    rotate 30
+    compress
+    delaycompress
+    notifempty
+    create 0644 sportai sportai
+}
+```
+
+### Database Maintenance
+
+**Regular Tasks:**
+```sql
+-- Vacuum database (weekly)
+VACUUM ANALYZE;
+
+-- Reindex (monthly)
+REINDEX DATABASE sportai;
+
+-- Check database size
+SELECT pg_size_pretty(pg_database_size('sportai'));
+
+-- Slow query analysis
+SELECT query, mean_exec_time 
+FROM pg_stat_statements 
+ORDER BY mean_exec_time DESC 
+LIMIT 10;
+```
+
+### Update Procedure
+
+**1. Test updates in staging:**
+```bash
+git pull origin main
+pip install -r requirements.txt --upgrade
+python tests/run_tests.py
+```
+
+**2. Deploy to production:**
+```bash
+# Backup first!
+./backup.sh
+
+# Deploy
+git pull origin main
+pip install -r requirements.txt --upgrade
+sudo systemctl restart sportai
+```
+
+**3. Verify deployment:**
+```bash
+# Check service status
+sudo systemctl status sportai
+
+# Check logs
+tail -f logs/sportai.log
+
+# Run smoke tests
+python tests/smoke_tests.py
+```
+
+---
+
+## Troubleshooting
+
+### Common Issues
+
+**Application won't start:**
+```bash
+# Check logs
+sudo journalctl -u sportai -f
+
+# Check port availability
+sudo netstat -tulpn | grep 8501
+
+# Check permissions
+ls -la /home/sportai/sportai
+```
+
+**Database connection errors:**
+```bash
+# Test connection
+psql -h localhost -U sportai -d sportai
+
+# Check PostgreSQL service
+sudo systemctl status postgresql
+```
+
+**High memory usage:**
+```python
+# Add to config
+# .streamlit/config.toml
+[server]
+maxUploadSize = 50
+runOnSave = false
+```
+
+### Emergency Procedures
+
+**Rollback:**
+```bash
+git checkout <previous-commit>
+sudo systemctl restart sportai
+```
+
+**Database restore:**
+```bash
+psql sportai < /backups/sportai/db_backup_YYYYMMDD.sql
+```
+
+---
+
+## Security Checklist
+
+- [ ] All default passwords changed
+- [ ] HTTPS enabled with valid certificate
+- [ ] Database credentials secured in environment variables
+- [ ] Rate limiting configured
+- [ ] CORS properly configured
+- [ ] Input validation on all forms
+- [ ] SQL injection protection verified
+- [ ] XSS protection enabled
+- [ ] CSRF protection enabled
+- [ ] Regular security updates scheduled
+- [ ] Backup and recovery tested
+- [ ] Audit logging enabled
+- [ ] Access logs monitored
+
+---
+
+## Support
+
+For deployment assistance:
+- **Email:** devops@skillshot.com
+- **Slack:** #sportai-deployment
+- **Documentation:** https://docs.skillshot.com
+
+**Emergency Contact:** +1 (555) 123-4567

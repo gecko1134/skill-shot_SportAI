@@ -1,0 +1,401 @@
+# Equipment Order Forms - Skill Shot Sports Complex
+
+## 📋 ORDER FORM 1: HitTrax Systems
+
+**Vendor:** InMotion Systems, LLC (HitTrax)  
+**Order Date:** _______________  
+**Required Delivery Date:** _______________  
+**Purchase Order #:** _______________
+
+### Equipment Specifications
+
+| Item | Qty | Unit Price | Total |
+|------|-----|------------|-------|
+| HitTrax Pro System - Complete Package | 3 | $_______ | $_______ |
+| Professional Installation per system | 3 | $_______ | $_______ |
+| Initial Calibration & Setup | 3 | $_______ | $_______ |
+| Staff Training Package (8 hours) | 1 | $_______ | $_______ |
+| Annual Software License (Year 1) | 3 | $_______ | $_______ |
+| Ethernet Cables (50ft) | 6 | $_______ | $_______ |
+| Power Surge Protectors | 3 | $_______ | $_______ |
+| Mounting Hardware Kit | 3 | $_______ | $_______ |
+| **SUBTOTAL** | | | $_______ |
+| **Shipping/Freight** | | | $_______ |
+| **Tax** | | | $_______ |
+| **TOTAL** | | | $_______ |
+
+### Installation Locations
+1. **Turf Box 1** - [Dimensions: 70' L x 13.6' W]
+2. **Turf Box 2** - [Dimensions: 70' L x 13.6' W]
+3. **Turf Box 3** - [Dimensions: 70' L x 13.6' W]
+
+### Technical Requirements Confirmed
+- [ ] Electrical: 120V, 15A circuits available at each location
+- [ ] Network: Ethernet connection available (1 Gbps minimum)
+- [ ] Ceiling Height: Minimum 12' clearance confirmed
+- [ ] Wall Space: Adequate space for projection/display
+- [ ] Lighting: Adjustable lighting confirmed
+- [ ] Internet: Minimum 50 Mbps upload speed
+
+### Installation Schedule
+- **Preferred Install Date:** _______________
+- **Backup Install Date:** _______________
+- **Installation Duration:** Estimated 2 days per unit
+- **Staff Training Date:** _______________ (post-installation)
+
+### Payment Terms
+- [ ] Net 30
+- [ ] 50% deposit, 50% on installation
+- [ ] Payment plan (specify): _______________
+- [ ] Financing through: _______________
+
+### Warranty & Support
+- Standard Warranty: _______ years
+- Extended Warranty Available: [ ] Yes [ ] No - Cost: $_______
+- Annual Support Contract (post-Year 1): $_______ per year
+
+### Special Requests/Notes
+```
+[Space for special requirements, multi-unit discount negotiation, etc.]
+
+
+
+
+```
+
+**Authorized By:**
+
+Name: ___________________________  
+Title: ___________________________  
+Signature: _______________________  
+Date: ___________________________
+
+**Vendor Acceptance:**
+
+Name: ___________________________  
+Title: ___________________________  
+Signature: _______________________  
+Date: ___________________________
+
+---
+
+## 📋 ORDER FORM 2: Rapsodo Systems
+
+**Vendor:** Rapsodo Inc.  
+**Order Date:** _______________  
+**Required Delivery Date:** _______________  
+**Purchase Order #:** _______________
+
+### Equipment Specifications
+
+| Item | Qty | Unit Price | Total |
+|------|-----|------------|-------|
+| Rapsodo Pitching 2.0 Unit | 3 | $_______ | $_______ |
+| iPad Mount/Stand (Heavy Duty) | 3 | $_______ | $_______ |
+| Protective Carrying Case | 3 | $_______ | $_______ |
+| Annual Premium Subscription | 3 | $_______ | $_______ |
+| Cloud Storage Upgrade (unlimited) | 3 | $_______ | $_______ |
+| Tripod Stand (adjustable height) | 3 | $_______ | $_______ |
+| **SUBTOTAL** | | | $_______ |
+| **Shipping** | | | $_______ |
+| **Tax** | | | $_______ |
+| **TOTAL** | | | $_______ |
+
+### Installation Locations
+1. **Turf Box 4** - Pitching mound setup
+2. **Turf Box 5** - Pitching mound setup
+3. **Turf Box 6** - Pitching mound setup
+
+### Technical Requirements
+- [ ] iPad Compatibility: iOS 14+ (we will provide iPads: Y/N _____)
+- [ ] WiFi Network: 5GHz network available
+- [ ] Power: USB charging stations at each location
+- [ ] Mounting: Tripod or permanent mount? _______________
+
+### Setup & Training
+- Installation: [ ] Self-install [ ] Vendor install
+- Remote training session: [ ] Included [ ] Additional cost: $_______
+- On-site training: [ ] Requested - Date: _______________
+
+### Payment Terms
+- [ ] Net 30
+- [ ] Full payment with order
+- [ ] Annual subscription pre-paid: [ ] 1 year [ ] 2 years [ ] 3 years
+
+### Multi-Year Subscription Discount
+- Year 1: $_______ each
+- Year 2: $_______ each (____% discount)
+- Year 3: $_______ each (____% discount)
+- **3-Year Total:** $_______
+
+---
+
+## 📋 ORDER FORM 3: Noah Basketball Systems
+
+**Vendor:** Noah Basketball  
+**Order Date:** _______________  
+**Required Delivery Date:** _______________  
+**Purchase Order #:** _______________
+
+### Equipment Specifications
+
+| Item | Qty | Unit Price | Total |
+|------|-----|------------|-------|
+| Noah Instant System | 4 | $_______ | $_______ |
+| Professional Installation per court | 4 | $_______ | $_______ |
+| Ceiling Mount Hardware Kit | 4 | $_______ | $_______ |
+| Annual Software License (Year 1) | 4 | $_______ | $_______ |
+| Tablet Display Stand (courtside) | 4 | $_______ | $_______ |
+| Additional User Licenses (if needed) | ___ | $_______ | $_______ |
+| Integration with Scoreboard (if applicable) | 4 | $_______ | $_______ |
+| **SUBTOTAL** | | | $_______ |
+| **Shipping** | | | $_______ |
+| **Tax** | | | $_______ |
+| **TOTAL** | | | $_______ |
+
+### Installation Locations
+1. **Basketball Court 1** - [Court dimensions: 33.33' x 39.33']
+2. **Basketball Court 2** - [Court dimensions: 33.33' x 39.33']
+3. **Basketball Court 3** - [Court dimensions: 33.33' x 39.33']
+4. **Basketball Court 4** - [Court dimensions: 33.33' x 39.33']
+
+### Technical Requirements Confirmed
+- [ ] Ceiling Height: _______ ft (minimum 12' required)
+- [ ] Ceiling Material: [ ] Concrete [ ] Steel [ ] Other: _______
+- [ ] Mounting Surface: Adequate support confirmed by: _______
+- [ ] Electrical: Power outlets near each court
+- [ ] Network: Ethernet or WiFi at each court
+- [ ] Lighting: LED or compatible lighting confirmed
+
+### Installation Details
+- **Installation Date:** _______________
+- **Installation Duration:** 1 day per court (estimated)
+- **Electrician Required:** [ ] Yes (our cost) [ ] Included
+- **Network Technician Required:** [ ] Yes (our cost) [ ] Included
+- **Pre-Installation Site Visit:** [ ] Requested - Date: _______
+
+### Training & Support
+- Staff Training (up to 6 people): [ ] Included [ ] Additional cost: $_______
+- Training Date: _______________
+- Online Resources/Videos: [ ] Included
+- Technical Support: Phone/Email ______ hours/days per week
+
+### Payment Terms
+- [ ] Net 30
+- [ ] 50% deposit, 50% on completion
+- [ ] Lease option (specify): _______________
+
+---
+
+## 📋 ORDER FORM 4: Veo Camera System
+
+**Vendor:** Veo Technologies  
+**Order Date:** _______________  
+**Required Delivery Date:** _______________  
+**Purchase Order #:** _______________
+
+### Equipment Specifications
+
+| Item | Qty | Unit Price | Total |
+|------|-----|------------|-------|
+| Veo Cam 3 Unit | 8 | $_______ | $_______ |
+| Tripod Stand (heavy duty) | 8 | $_______ | $_______ |
+| Protective Carrying Case | 8 | $_______ | $_______ |
+| Annual Subscription (Premium) | 8 | $_______ | $_______ |
+| Cloud Storage (unlimited) | 8 | $_______ | $_______ |
+| Charging Cables & Accessories | 8 | $_______ | $_______ |
+| Wall Mount Kit (optional) | ___ | $_______ | $_______ |
+| **SUBTOTAL** | | | $_______ |
+| **Shipping** | | | $_______ |
+| **Tax** | | | $_______ |
+| **TOTAL** | | | $_______ |
+
+### Camera Locations
+1. Basketball Court 1 - Baseline view
+2. Basketball Court 2 - Baseline view
+3. Basketball Court 3 - Baseline view
+4. Basketball Court 4 - Baseline view
+5. Turf Field - Corner 1
+6. Turf Field - Corner 2
+7. Training Area - Overview
+8. Multipurpose - Overview
+
+### Technical Requirements
+- [ ] WiFi Network: 5GHz network with _____ Mbps speed
+- [ ] Power: AC outlets at each camera location
+- [ ] Mounting: [ ] Tripod [ ] Wall mount [ ] Both
+- [ ] Storage: Cloud only or local backup needed? _______
+
+### Subscription Options
+- [ ] Monthly: $_____ per camera
+- [ ] Annual (prepaid): $_____ per camera (save ___%)
+- [ ] Multi-year: ___ years at $_____ total
+
+---
+
+## 📋 ORDER FORM 5: GPS Tracking System
+
+**Vendor:** [ ] Catapult Sports [ ] Kinexon  
+**Order Date:** _______________  
+**Required Delivery Date:** _______________  
+**Purchase Order #:** _______________
+
+### Equipment Specifications
+
+| Item | Qty | Unit Price | Total |
+|------|-----|------------|-------|
+| GPS Tracking Units | 30 | $_______ | $_______ |
+| Base Station/Receiver System | 1 | $_______ | $_______ |
+| Charging Dock (10-unit capacity) | 3 | $_______ | $_______ |
+| Vests/Harnesses for units | 30 | $_______ | $_______ |
+| Annual Software Platform License | 1 | $_______ | $_______ |
+| Installation & Setup | 1 | $_______ | $_______ |
+| Staff Training | 1 | $_______ | $_______ |
+| **SUBTOTAL** | | | $_______ |
+| **Shipping** | | | $_______ |
+| **Tax** | | | $_______ |
+| **TOTAL** | | | $_______ |
+
+### Installation Location
+- **Full Turf Field** - [Dimensions: 70' L x 39.33' W]
+- **Indoor/Outdoor:** Indoor
+- **Ceiling Height:** _______ ft
+
+### Technical Requirements
+- [ ] Base station mounting location identified
+- [ ] Power source for base station and charging docks
+- [ ] Network connection (ethernet preferred)
+- [ ] Indoor tracking capability confirmed
+- [ ] Real-time data streaming: [ ] Required [ ] Post-session only
+
+### Use Cases
+- [ ] Soccer training
+- [ ] Lacrosse training
+- [ ] Football training
+- [ ] Multi-sport fitness tracking
+- [ ] Team sports analytics
+
+---
+
+## 📋 ORDER FORM 6: AV/Network Infrastructure Upgrade
+
+**Vendor:** _________________________  
+**Order Date:** _______________  
+**Required Delivery Date:** _______________  
+**Purchase Order #:** _______________
+
+### Scope of Work
+
+| Item/Service | Qty | Unit Price | Total |
+|--------------|-----|------------|-------|
+| **NETWORK UPGRADES** | | | |
+| CAT6 Ethernet Cable Installation | ___ft | $_______ | $_______ |
+| Network Switch (48-port, managed) | ___ | $_______ | $_______ |
+| WiFi Access Points (enterprise grade) | ___ | $_______ | $_______ |
+| Network Rack/Cabinet | ___ | $_______ | $_______ |
+| **DISPLAY SCREENS** | | | |
+| 55" Commercial Display (leaderboards) | ___ | $_______ | $_______ |
+| Wall Mount Hardware | ___ | $_______ | $_______ |
+| HDMI over Ethernet Extenders | ___ | $_______ | $_______ |
+| Media Players (for leaderboards) | ___ | $_______ | $_______ |
+| **ELECTRICAL** | | | |
+| New 120V Circuits (per location) | ___ | $_______ | $_______ |
+| Electrical Panel Upgrade (if needed) | ___ | $_______ | $_______ |
+| Conduit & Wire Management | ___ | $_______ | $_______ |
+| **LABOR & MISC** | | | |
+| Project Management | 1 | $_______ | $_______ |
+| Installation Labor (per day) | ___ | $_______ | $_______ |
+| Testing & Commissioning | 1 | $_______ | $_______ |
+| **SUBTOTAL** | | | $_______ |
+| **Tax** | | | $_______ |
+| **TOTAL** | | | $_______ |
+
+### Display Locations
+1. Main Lobby - Welcome screen
+2. Basketball Courts - Performance leaderboard
+3. Turf Area - Stats display
+4. Golf Area - Swing analysis display
+5. Other: _______________
+
+### Network Requirements
+- [ ] 1 Gbps internet connection available
+- [ ] Managed network preferred for QoS
+- [ ] VLANs for guest vs equipment traffic
+- [ ] Network monitoring and management included
+
+---
+
+## 📊 MASTER EQUIPMENT TRACKING SPREADSHEET
+
+**Create this in Excel/Google Sheets**
+
+| Vendor | Item | Qty | Quote Received | Quote Amount | Order Placed | Expected Delivery | Install Date | Payment Status |
+|--------|------|-----|----------------|--------------|--------------|-------------------|--------------|----------------|
+| HitTrax | Pro System | 3 | ☐ | $_______ | ☐ | _____ | _____ | ☐ |
+| Rapsodo | Pitching 2.0 | 3 | ☐ | $_______ | ☐ | _____ | _____ | ☐ |
+| Noah | Basketball | 4 | ☐ | $_______ | ☐ | _____ | _____ | ☐ |
+| Veo | Cameras | 8 | ☐ | $_______ | ☐ | _____ | _____ | ☐ |
+| GPS | Tracking | 1 | ☐ | $_______ | ☐ | _____ | _____ | ☐ |
+| AV | Infrastructure | 1 | ☐ | $_______ | ☐ | _____ | _____ | ☐ |
+
+---
+
+## ✅ PRE-ORDER CHECKLIST
+
+### Before Placing Any Order
+
+**Facility Preparation:**
+- [ ] Electrical capacity assessment completed
+- [ ] Network infrastructure assessment completed
+- [ ] Ceiling/mounting surface strength verified
+- [ ] Space measurements confirmed
+- [ ] Lighting compatibility checked
+- [ ] Internet speed test completed (upload/download)
+
+**Financial Preparation:**
+- [ ] Budget approved by leadership
+- [ ] Purchase orders generated
+- [ ] Payment method confirmed (check/wire/card)
+- [ ] Financing arranged (if applicable)
+- [ ] Tax exemption certificate ready (if applicable)
+
+**Vendor Communication:**
+- [ ] All RFQs sent
+- [ ] Quotes received and reviewed
+- [ ] References checked
+- [ ] Delivery timelines confirmed
+- [ ] Installation requirements clarified
+- [ ] Warranty terms reviewed
+- [ ] Payment terms negotiated
+
+**Internal Coordination:**
+- [ ] Installation schedule coordinated with facility calendar
+- [ ] Staff notified of installation timeline
+- [ ] Member communication plan ready
+- [ ] Marketing materials in development
+- [ ] Training schedule arranged
+
+**Documentation:**
+- [ ] All order forms completed
+- [ ] Contracts reviewed by legal (if needed)
+- [ ] Insurance updated for new equipment value
+- [ ] Asset tracking system ready
+
+---
+
+## 📞 EMERGENCY CONTACTS DURING INSTALLATION
+
+**Internal:**
+- Facility Manager: _________________ (Cell: _________)
+- IT Manager: _________________ (Cell: _________)
+- Electrician: _________________ (Cell: _________)
+
+**Vendors:**
+- HitTrax Installation: _________________ (___-___-____)
+- Rapsodo Support: _________________ (___-___-____)
+- Noah Support: _________________ (___-___-____)
+- Network Installer: _________________ (___-___-____)
+
+---
+
+**NOTE:** Keep all completed order forms, quotes, and correspondence in a dedicated "Elite Tech Implementation" folder (physical and digital). Update tracking spreadsheet weekly during ordering and installation phase.

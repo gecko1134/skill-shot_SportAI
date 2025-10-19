@@ -1,0 +1,278 @@
+# Vendor Comparison & Evaluation Tool
+
+## 📊 Scoring Matrix for Vendor Selection
+
+### How to Use This Tool
+1. Fill out each section for every vendor quote received
+2. Score each criterion on a scale of 1-10
+3. Apply weighted multiplier
+4. Total scores to identify best vendor
+5. Use for final negotiation leverage
+
+---
+
+## CATEGORY 1: HITTING/PITCHING ANALYTICS
+
+### Vendor Comparison: HitTrax vs Rapsodo vs Yakkertech
+
+| Criteria | Weight | HitTrax | Rapsodo | Yakkertech | Notes |
+|----------|--------|---------|---------|------------|-------|
+| **PRICING** (30%) | | | | | |
+| Equipment Cost (3 units) | 15% | Score: __ <br>Cost: $_____ | Score: __ <br>Cost: $_____ | Score: __ <br>Cost: $_____ | Lower cost = higher score |
+| Installation Cost | 5% | Score: __ <br>Cost: $_____ | Score: __ <br>Cost: $_____ | Score: __ <br>Cost: $_____ | |
+| Annual Subscription | 5% | Score: __ <br>Cost: $_____ | Score: __ <br>Cost: $_____ | Score: __ <br>Cost: $_____ | |
+| Hidden/Ongoing Costs | 5% | Score: __ <br>Notes: _____ | Score: __ <br>Notes: _____ | Score: __ <br>Notes: _____ | Lower = better |
+| **FEATURES** (30%) | | | | | |
+| Hitting Metrics Tracked | 10% | Score: __ <br>Count: __ | Score: __ <br>Count: __ | Score: __ <br>Count: __ | More = better |
+| Pitching Metrics Tracked | 10% | Score: __ <br>Count: __ | Score: __ <br>Count: __ | Score: __ <br>Count: __ | More = better |
+| Video Integration | 5% | Score: __ <br>Y/N: __ | Score: __ <br>Y/N: __ | Score: __ <br>Y/N: __ | |
+| Mobile App Quality | 5% | Score: __ <br>iOS Rating: __ | Score: __ <br>iOS Rating: __ | Score: __ <br>iOS Rating: __ | |
+| **INSTALLATION** (20%) | | | | | |
+| Lead Time (weeks) | 10% | Score: __ <br>Time: __ wks | Score: __ <br>Time: __ wks | Score: __ <br>Time: __ wks | Faster = higher score |
+| Installation Complexity | 5% | Score: __ <br>Notes: _____ | Score: __ <br>Notes: _____ | Score: __ <br>Notes: _____ | Easier = higher |
+| Training Provided | 5% | Score: __ <br>Hours: __ | Score: __ <br>Hours: __ | Score: __ <br>Hours: __ | More = better |
+| **SUPPORT** (10%) | | | | | |
+| Warranty Period | 3% | Score: __ <br>Years: __ | Score: __ <br>Years: __ | Score: __ <br>Years: __ | Longer = better |
+| Support Availability | 4% | Score: __ <br>Hours: _____ | Score: __ <br>Hours: _____ | Score: __ <br>Hours: _____ | |
+| Support Response Time | 3% | Score: __ <br>SLA: _____ | Score: __ <br>SLA: _____ | Score: __ <br>SLA: _____ | |
+| **REPUTATION** (10%) | | | | | |
+| Industry Reputation | 5% | Score: __ <br>Notes: _____ | Score: __ <br>Notes: _____ | Score: __ <br>Notes: _____ | |
+| Customer References | 3% | Score: __ <br># Refs: __ | Score: __ <br># Refs: __ | Score: __ <br># Refs: __ | |
+| Years in Business | 2% | Score: __ <br>Years: __ | Score: __ <br>Years: __ | Score: __ <br>Years: __ | |
+| **WEIGHTED TOTAL** | **100%** | **_____** | **_____** | **_____** | Highest wins |
+
+**Scoring Guide:**
+- 10 = Exceptional, best in class
+- 8-9 = Excellent, exceeds requirements
+- 6-7 = Good, meets requirements
+- 4-5 = Acceptable, minor concerns
+- 1-3 = Poor, significant concerns
+
+**Calculation Example:**
+- If HitTrax scores 9/10 on Equipment Cost (15% weight): 9 × 0.15 = 1.35 points
+- Sum all weighted scores for total
+
+---
+
+## CATEGORY 2: BASKETBALL SHOT TRACKING
+
+### Vendor Comparison: Noah vs Dr. Dish vs HomeCourt
+
+| Criteria | Weight | Noah Basketball | Dr. Dish | HomeCourt App | Notes |
+|----------|--------|-----------------|----------|---------------|-------|
+| **PRICING** (30%) | | | | | |
+| Equipment Cost (4 courts) | 15% | $_____ Score: __ | $_____ Score: __ | $_____ Score: __ | |
+| Installation Cost | 5% | $_____ Score: __ | $_____ Score: __ | $_____ Score: __ | |
+| Annual Subscription (4 courts) | 10% | $_____ Score: __ | $_____ Score: __ | $_____ Score: __ | |
+| **FEATURES** (30%) | | | | | |
+| Shot Tracking Accuracy | 10% | Score: __ % Acc: __ | Score: __ % Acc: __ | Score: __ % Acc: __ | |
+| Metrics Tracked | 10% | Score: __ Count: __ | Score: __ Count: __ | Score: __ Count: __ | |
+| Real-Time Feedback | 5% | Score: __ Y/N: __ | Score: __ Y/N: __ | Score: __ Y/N: __ | |
+| Multi-Player Tracking | 5% | Score: __ Max: __ | Score: __ Max: __ | Score: __ Max: __ | |
+| **INSTALLATION** (20%) | | | | | |
+| Professional Install Required | 10% | Score: __ Y/N: __ | Score: __ Y/N: __ | Score: __ Y/N: __ | Self-install preferred |
+| Lead Time | 5% | Score: __ Weeks: __ | Score: __ Weeks: __ | Score: __ Weeks: __ | |
+| Setup Complexity | 5% | Score: __ Notes: ____ | Score: __ Notes: ____ | Score: __ Notes: ____ | |
+| **SUPPORT** (10%) | | | | | |
+| Warranty | 5% | Score: __ Years: __ | Score: __ Years: __ | Score: __ Years: __ | |
+| Support Quality | 5% | Score: __ Rating: __ | Score: __ Rating: __ | Score: __ Rating: __ | |
+| **REPUTATION** (10%) | | | | | |
+| Used by Pro/College Teams | 5% | Score: __ Count: __ | Score: __ Count: __ | Score: __ Count: __ | |
+| Customer References | 5% | Score: __ # Refs: __ | Score: __ # Refs: __ | Score: __ # Refs: __ | |
+| **WEIGHTED TOTAL** | **100%** | **_____** | **_____** | **_____** | |
+
+---
+
+## CATEGORY 3: VIDEO ANALYSIS SYSTEMS
+
+### Vendor Comparison: Veo vs Hudl vs Pixellot
+
+| Criteria | Weight | Veo | Hudl Focus | Pixellot | Notes |
+|----------|--------|-----|------------|----------|-------|
+| **PRICING** (30%) | | | | | |
+| Camera Cost (8 units) | 10% | $_____ Score: __ | $_____ Score: __ | $_____ Score: __ | |
+| Subscription (8 units/year) | 10% | $_____ Score: __ | $_____ Score: __ | $_____ Score: __ | |
+| Cloud Storage Included | 5% | Score: __ GB: __ | Score: __ GB: __ | Score: __ GB: __ | |
+| Total 3-Year Cost | 5% | $_____ Score: __ | $_____ Score: __ | $_____ Score: __ | |
+| **FEATURES** (30%) | | | | | |
+| AI Auto-Editing | 10% | Score: __ Y/N: __ | Score: __ Y/N: __ | Score: __ Y/N: __ | |
+| Multi-Angle Capability | 5% | Score: __ Y/N: __ | Score: __ Y/N: __ | Score: __ Y/N: __ | |
+| Slow Motion Quality | 5% | Score: __ FPS: __ | Score: __ FPS: __ | Score: __ FPS: __ | |
+| Mobile App Quality | 5% | Score: __ Rating: __ | Score: __ Rating: __ | Score: __ Rating: __ | |
+| Easy Sharing/Download | 5% | Score: __ Y/N: __ | Score: __ Y/N: __ | Score: __ Y/N: __ | |
+| **EASE OF USE** (20%) | | | | | |
+| Setup Simplicity | 10% | Score: __ Notes: ____ | Score: __ Notes: ____ | Score: __ Notes: ____ | |
+| Daily Operation | 5% | Score: __ Notes: ____ | Score: __ Notes: ____ | Score: __ Notes: ____ | |
+| Battery Life | 5% | Score: __ Hours: __ | Score: __ Hours: __ | Score: __ Hours: __ | |
+| **SUPPORT** (10%) | | | | | |
+| Technical Support | 5% | Score: __ Notes: ____ | Score: __ Notes: ____ | Score: __ Notes: ____ | |
+| Training Resources | 5% | Score: __ Notes: ____ | Score: __ Notes: ____ | Score: __ Notes: ____ | |
+| **REPUTATION** (10%) | | | | | |
+| Market Share/Popularity | 5% | Score: __ Notes: ____ | Score: __ Notes: ____ | Score: __ Notes: ____ | |
+| Customer Reviews | 5% | Score: __ Rating: __ | Score: __ Rating: __ | Score: __ Rating: __ | |
+| **WEIGHTED TOTAL** | **100%** | **_____** | **_____** | **_____** | |
+
+---
+
+## CATEGORY 4: GPS TRACKING SYSTEMS
+
+### Vendor Comparison: Catapult vs Kinexon vs Polar
+
+| Criteria | Weight | Catapult | Kinexon | Polar Team Pro | Notes |
+|----------|--------|----------|---------|----------------|-------|
+| **PRICING** (30%) | | | | | |
+| System Cost (30 units) | 15% | $_____ Score: __ | $_____ Score: __ | $_____ Score: __ | |
+| Annual Platform Fee | 10% | $_____ Score: __ | $_____ Score: __ | $_____ Score: __ | |
+| Per-Athlete License | 5% | $_____ Score: __ | $_____ Score: __ | $_____ Score: __ | |
+| **FEATURES** (30%) | | | | | |
+| Indoor Tracking Accuracy | 10% | Score: __ Accuracy: __ | Score: __ Accuracy: __ | Score: __ Accuracy: __ | |
+| Metrics Available | 10% | Score: __ Count: __ | Score: __ Count: __ | Score: __ Count: __ | |
+| Real-Time Tracking | 5% | Score: __ Y/N: __ | Score: __ Y/N: __ | Score: __ Y/N: __ | |
+| Battery Life | 5% | Score: __ Hours: __ | Score: __ Hours: __ | Score: __ Hours: __ | |
+| **INSTALLATION** (15%) | | | | | |
+| Setup Complexity | 10% | Score: __ Notes: ____ | Score: __ Notes: ____ | Score: __ Notes: ____ | |
+| Lead Time | 5% | Score: __ Weeks: __ | Score: __ Weeks: __ | Score: __ Weeks: __ | |
+| **ANALYTICS** (15%) | | | | | |
+| Data Visualization | 7% | Score: __ Notes: ____ | Score: __ Notes: ____ | Score: __ Notes: ____ | |
+| Report Generation | 8% | Score: __ Quality: __ | Score: __ Quality: __ | Score: __ Quality: __ | |
+| **REPUTATION** (10%) | | | | | |
+| Professional Teams Using | 5% | Score: __ Count: __ | Score: __ Count: __ | Score: __ Count: __ | |
+| College Programs | 5% | Score: __ Count: __ | Score: __ Count: __ | Score: __ Count: __ | |
+| **WEIGHTED TOTAL** | **100%** | **_____** | **_____** | **_____** | |
+
+---
+
+## FINAL VENDOR SELECTION SCORECARD
+
+### Summary Across All Categories
+
+| Vendor/Category | Total Score | Cost | Best Feature | Main Concern | Selected? |
+|-----------------|-------------|------|--------------|--------------|-----------|
+| **HitTrax** | ___/100 | $_____ | ___________ | ___________ | ☐ |
+| **Rapsodo** | ___/100 | $_____ | ___________ | ___________ | ☐ |
+| **Noah Basketball** | ___/100 | $_____ | ___________ | ___________ | ☐ |
+| **Veo Cameras** | ___/100 | $_____ | ___________ | ___________ | ☐ |
+| **Catapult GPS** | ___/100 | $_____ | ___________ | ___________ | ☐ |
+
+### Total Investment Summary
+
+| Category | Selected Vendor | Equipment | Installation | Annual | 3-Year Total |
+|----------|----------------|-----------|--------------|--------|--------------|
+| Hitting/Pitching | __________ | $_____ | $_____ | $_____ | $_____ |
+| Basketball | __________ | $_____ | $_____ | $_____ | $_____ |
+| Video Analysis | __________ | $_____ | $_____ | $_____ | $_____ |
+| GPS Tracking | __________ | $_____ | $_____ | $_____ | $_____ |
+| Infrastructure | __________ | $_____ | $_____ | $_____ | $_____ |
+| **TOTALS** | | **$_____** | **$_____** | **$_____** | **$_____** |
+
+---
+
+## NEGOTIATION TRACKER
+
+### Use this to track negotiation progress with each vendor
+
+**HitTrax:**
+- Initial Quote: $_____
+- After negotiation attempt #1: $_____
+- After negotiation attempt #2: $_____
+- Final Price: $_____
+- **Total Savings: $_____** (___%)
+
+**Rapsodo:**
+- Initial Quote: $_____
+- Final Price: $_____
+- **Savings: $_____**
+
+**Noah Basketball:**
+- Initial Quote: $_____
+- Final Price: $_____
+- **Savings: $_____**
+
+**Veo:**
+- Initial Quote: $_____
+- Final Price: $_____
+- **Savings: $_____**
+
+**GPS System:**
+- Initial Quote: $_____
+- Final Price: $_____
+- **Savings: $_____**
+
+**Total Project Savings: $_____**
+
+---
+
+## REFERENCE CHECK TEMPLATE
+
+**For each vendor, contact at least 2 references:**
+
+### Reference #1
+- **Facility Name:** _______________
+- **Contact:** _______________ (___-___-____)
+- **Installed:** _____ (month/year)
+
+**Questions:**
+1. Overall satisfaction (1-10): ____
+2. Installation process smooth? Y/N - Notes: __________
+3. Technical support responsive? Y/N - Notes: __________
+4. Equipment reliability? Y/N - Issues: __________
+5. Would you buy again? Y/N - Why/why not: __________
+6. ROI achieved? Y/N - Details: __________
+7. Any regrets or things to know? __________
+8. Advice for us? __________
+
+### Reference #2
+- **Facility Name:** _______________
+- **Contact:** _______________ (___-___-____)
+- **Installed:** _____ (month/year)
+
+[Same questions as above]
+
+---
+
+## DECISION TIMELINE
+
+- [ ] **Week 1:** Send all RFQs
+- [ ] **Week 2:** Receive quotes, enter into comparison tool
+- [ ] **Week 2:** Contact references
+- [ ] **Week 3:** Score all vendors, identify top choices
+- [ ] **Week 3:** Negotiate with top 2-3 vendors
+- [ ] **Week 4:** Final vendor selection
+- [ ] **Week 4:** Place orders for long-lead items
+- [ ] **Week 5:** Place remaining orders
+- [ ] **Week 6:** Finalize installation schedule
+
+---
+
+## FINAL RECOMMENDATION SUMMARY
+
+**Prepared by:** _______________  
+**Date:** _______________
+
+**Recommended Vendors:**
+1. Hitting/Pitching: __________ | Reason: __________
+2. Basketball: __________ | Reason: __________
+3. Video: __________ | Reason: __________
+4. GPS: __________ | Reason: __________
+
+**Total Investment:** $_____  
+**Expected ROI:** _____ months  
+**Risk Assessment:** Low / Medium / High  
+**Key Risks:** __________
+
+**Approval Required From:**
+- [ ] Leadership Team
+- [ ] Board of Directors  
+- [ ] Finance Committee
+
+**Next Steps:**
+1. __________
+2. __________
+3. __________
+
+**Approved by:**
+
+Name: ___________________________  
+Title: ___________________________  
+Signature: _______________________  
+Date: ___________________________

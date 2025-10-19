@@ -1,0 +1,317 @@
+{
+  "membership_tiers": {
+    "bronze": {
+      "name": "Bronze",
+      "monthly_fee": 29,
+      "credits_included": 5,
+      "booking_discount": 0.05,
+      "tech_access": {
+        "video_recording": false,
+        "performance_metrics": false,
+        "ai_coaching": false,
+        "data_retention_days": 0,
+        "tech_pods_access": [],
+        "premium_charge_per_session": 25
+      },
+      "perks": [
+        "5 credits per month",
+        "5% booking discount",
+        "Basic facility access",
+        "Mobile app access"
+      ]
+    },
+    "silver": {
+      "name": "Silver", 
+      "monthly_fee": 45,
+      "credits_included": 10,
+      "booking_discount": 0.10,
+      "tech_access": {
+        "video_recording": true,
+        "performance_metrics": "basic",
+        "ai_coaching": false,
+        "data_retention_days": 7,
+        "tech_pods_access": ["all"],
+        "premium_charge_per_session": 15
+      },
+      "perks": [
+        "10 credits per month",
+        "10% booking discount",
+        "Basic video recording",
+        "7-day video storage",
+        "$15 tech session fee",
+        "2 guest passes/month"
+      ]
+    },
+    "gold": {
+      "name": "Gold",
+      "monthly_fee": 75,
+      "credits_included": 20,
+      "booking_discount": 0.15,
+      "tech_access": {
+        "video_recording": true,
+        "performance_metrics": "advanced",
+        "ai_coaching": true,
+        "data_retention_days": 30,
+        "tech_pods_access": ["all"],
+        "premium_charge_per_session": 10
+      },
+      "perks": [
+        "20 credits per month",
+        "15% booking discount",
+        "Advanced performance tracking",
+        "AI coaching insights",
+        "30-day video storage",
+        "$10 tech session fee",
+        "Priority booking",
+        "4 guest passes/month",
+        "Suite access"
+      ]
+    },
+    "platinum": {
+      "name": "Platinum",
+      "monthly_fee": 125,
+      "credits_included": 40,
+      "booking_discount": 0.20,
+      "tech_access": {
+        "video_recording": true,
+        "performance_metrics": "advanced",
+        "ai_coaching": true,
+        "data_retention_days": 90,
+        "tech_pods_access": ["all"],
+        "premium_charge_per_session": 5
+      },
+      "perks": [
+        "40 credits per month",
+        "20% booking discount",
+        "Full performance analytics suite",
+        "AI coaching + monthly review",
+        "90-day video storage",
+        "$5 tech session fee",
+        "Priority booking",
+        "8 guest passes/month",
+        "Suite access",
+        "Quarterly performance report"
+      ]
+    },
+    "elite_tech": {
+      "name": "Elite Tech (Add-on)",
+      "monthly_fee": 99,
+      "can_stack": true,
+      "stackable_with": ["bronze", "silver", "gold", "platinum"],
+      "credits_included": 0,
+      "booking_discount": 0,
+      "tech_access": {
+        "video_recording": true,
+        "performance_metrics": "elite",
+        "ai_coaching": true,
+        "data_retention_days": 365,
+        "tech_pods_access": ["all"],
+        "premium_charge_per_session": 0,
+        "leaderboard_access": true,
+        "challenge_participation": true,
+        "monthly_coach_review": true,
+        "api_data_export": true
+      },
+      "perks": [
+        "UNLIMITED tech-enabled sessions",
+        "No per-session tech fees",
+        "Elite performance analytics",
+        "Dedicated AI coaching",
+        "1-year video storage",
+        "Monthly 1-on-1 performance review",
+        "Leaderboard participation",
+        "Challenge rewards eligibility",
+        "Data export API access",
+        "First access to new tech features"
+      ]
+    },
+    "elite_tech_standalone": {
+      "name": "Elite Tech Standalone",
+      "monthly_fee": 149,
+      "credits_included": 15,
+      "booking_discount": 0.10,
+      "tech_access": {
+        "video_recording": true,
+        "performance_metrics": "elite",
+        "ai_coaching": true,
+        "data_retention_days": 365,
+        "tech_pods_access": ["all"],
+        "premium_charge_per_session": 0,
+        "leaderboard_access": true,
+        "challenge_participation": true,
+        "monthly_coach_review": true,
+        "api_data_export": true
+      },
+      "perks": [
+        "15 credits per month",
+        "10% booking discount",
+        "All Elite Tech add-on features",
+        "No base membership required",
+        "Perfect for serious athletes"
+      ]
+    },
+    "team_elite_tech": {
+      "name": "Team Elite Tech",
+      "monthly_fee": 499,
+      "max_athletes": 25,
+      "credits_included": 100,
+      "booking_discount": 0.25,
+      "tech_access": {
+        "video_recording": true,
+        "performance_metrics": "elite",
+        "ai_coaching": true,
+        "data_retention_days": 365,
+        "tech_pods_access": ["all"],
+        "premium_charge_per_session": 0,
+        "leaderboard_access": true,
+        "challenge_participation": true,
+        "monthly_coach_review": true,
+        "api_data_export": true,
+        "team_analytics": true,
+        "roster_management": true
+      },
+      "perks": [
+        "Up to 25 athletes on roster",
+        "100 shared credits per month",
+        "25% booking discount",
+        "Team performance analytics",
+        "Roster management tools",
+        "Team challenges and competitions",
+        "Dedicated team dashboard",
+        "Monthly team performance report",
+        "Bulk booking tools",
+        "Custom team training programs"
+      ]
+    }
+  },
+  "tech_packages_by_pod": {
+    "turf_boxes_hitting": {
+      "tech_stack": ["HitTrax", "Rapsodo", "High-Speed Camera", "Video AI"],
+      "metrics_tracked": [
+        "Exit Velocity",
+        "Launch Angle",
+        "Bat Speed",
+        "Swing Path",
+        "Contact Quality",
+        "Hard Hit %"
+      ],
+      "session_fee_non_elite": 20
+    },
+    "turf_boxes_pitching": {
+      "tech_stack": ["Rapsodo", "High-Speed Camera", "Video AI"],
+      "metrics_tracked": [
+        "Velocity",
+        "Spin Rate",
+        "Break",
+        "Release Point",
+        "Arm Slot",
+        "Pitch Movement"
+      ],
+      "session_fee_non_elite": 20
+    },
+    "basketball_courts": {
+      "tech_stack": ["Noah Basketball", "Shot Tracking", "Video AI"],
+      "metrics_tracked": [
+        "Shot %",
+        "Release Angle",
+        "Arc",
+        "Shot Speed",
+        "Form Score",
+        "Hot Zones"
+      ],
+      "session_fee_non_elite": 15
+    },
+    "golf_simulators": {
+      "tech_stack": ["TrackMan", "Swing Analysis", "Video AI"],
+      "metrics_tracked": [
+        "Club Speed",
+        "Ball Speed",
+        "Smash Factor",
+        "Launch Angle",
+        "Spin Rate",
+        "Carry Distance"
+      ],
+      "session_fee_non_elite": 25
+    },
+    "turf_full_field": {
+      "tech_stack": ["GPS Tracking", "Multi-Camera", "Tactical AI"],
+      "metrics_tracked": [
+        "Distance Covered",
+        "Speed",
+        "Acceleration",
+        "Positioning",
+        "Tactical Movement"
+      ],
+      "session_fee_non_elite": 30
+    },
+    "vr_arena": {
+      "tech_stack": ["VR Headsets", "Motion Tracking", "Performance AI"],
+      "metrics_tracked": [
+        "Reaction Time",
+        "Decision Making",
+        "Spatial Awareness",
+        "Consistency",
+        "Mental Performance"
+      ],
+      "session_fee_non_elite": 25
+    }
+  },
+  "pricing_strategy": {
+    "upsell_path": {
+      "bronze_to_silver": {
+        "trigger": "3+ tech session bookings with $25 fee",
+        "message": "You've spent $75 on tech fees. Upgrade to Silver for $45/mo and pay only $15/session!",
+        "savings_monthly": "$30+ for active users"
+      },
+      "silver_to_gold": {
+        "trigger": "2+ tech sessions per week",
+        "message": "Training 2x/week? Gold membership saves you money and unlocks AI coaching.",
+        "savings_monthly": "$60+ for 8+ sessions/month"
+      },
+      "gold_to_elite_tech": {
+        "trigger": "Using tech 3+ times per week",
+        "message": "Serious athlete? Elite Tech add-on gives unlimited sessions for $99/mo.",
+        "savings_monthly": "$120+ for 12+ sessions/month"
+      },
+      "any_to_team": {
+        "trigger": "5+ athletes from same organization",
+        "message": "Team of 5+? Team Elite Tech is $499/mo vs $745+ individual.",
+        "savings_monthly": "$246+ for teams"
+      }
+    },
+    "conversion_incentives": {
+      "first_month_discount": 0.50,
+      "annual_prepay_discount": 0.15,
+      "family_add_on": {
+        "additional_member_fee": 35,
+        "shares_tech_access": true
+      },
+      "corporate_bulk": {
+        "min_memberships": 10,
+        "discount": 0.20
+      }
+    }
+  },
+  "revenue_projections": {
+    "target_mix": {
+      "bronze": 0.15,
+      "silver": 0.35,
+      "gold": 0.30,
+      "platinum": 0.10,
+      "elite_tech_addon": 0.08,
+      "elite_tech_standalone": 0.02,
+      "team_elite_tech": 0.05
+    },
+    "tech_session_revenue": {
+      "monthly_tech_sessions_estimate": 850,
+      "avg_fee_per_session": 12,
+      "monthly_tech_fee_revenue": 10200
+    },
+    "membership_revenue": {
+      "target_members": 850,
+      "weighted_avg_monthly_fee": 58,
+      "monthly_membership_revenue": 49300,
+      "total_monthly_recurring": 59500
+    }
+  }
+}
